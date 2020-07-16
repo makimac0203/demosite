@@ -10,4 +10,4 @@ function getCsvData(dataPath) {
  request.send();
 }
 
-getCsvData('example.csv');
+getCsvData('./example.csv');
