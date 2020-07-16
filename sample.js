@@ -2,7 +2,7 @@
 // <div id="r"></div>
 function getCSV() {
   var req = new XMLHttpRequest();
-  req.open('get', '.csv', true);
+  req.open('get', 'example.csv', true);
   req.send(null);
   req.onload = function() {
     setCSV(req.responseText);
